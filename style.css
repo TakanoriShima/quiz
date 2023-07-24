@@ -1,0 +1,62 @@
+@charset "utf8";
+table, tr, td {
+    border: solid 1px;
+}
+
+.correct {
+    color: blue;
+    background-color: skyblue;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.error {
+    color: red;
+    background-color: pink;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.alert {
+    color: red;
+}
+
+h1 {
+    color: blue;
+    margin: 0 auto;
+    width: 30%;
+    border-bottom: double 5px;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+button#answer_button {
+    width: 100%;
+}
+
+button#next_button {
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 25%;
+}
+
+p {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    border-bottom: solid 2px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.hide {
+    display: hidden;
+}

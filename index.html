@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>クイズアプリ</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>クイズアプリ</h1>
+        <p>第<span id="count"></span>問/全<span id="total_count"></span>問</p>
+        <table>
+            <tr>
+                <th>問題</th>
+                <td id="q"></td>
+            </tr>
+            <tr>
+                <td>答え</td>
+                <td id="elm">
+                    <!--<input type="radio" name="answer" value="" id="ans1" checked><label for="ans1" id="label1"></label><br>-->
+                    <!--<input type="radio" name="answer" value="アメリカ">アメリカ<br>-->
+                    <!--<input type="radio" name="answer" value="中国">中国<br>-->
+                    <!--<input type="radio" name="answer" value="インド">インド<br>-->
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" id="answer_button">回答</button>
+                </td>
+            </tr>
+        </table>
+        
+        <h2 id="result"></h2>
+        <p id="stat"></p>
+        
+        <button type="button" id="next_button">次の問題へ</button>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
+
